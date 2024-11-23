@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         static let number: CGFloat = 4
     }
     
-    var imageCount = 200
+    var imageCount = 64
   
     private lazy var collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()

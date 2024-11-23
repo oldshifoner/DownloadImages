@@ -28,8 +28,6 @@ class DownloadableImageView: UIImageView, Downloadable {
                 for option in withOptions {
                     image = self.performOption(image, option: option, for: url)
                 }
-                print("downLOAD")
-               // self.cacheImage(image, for: url)
                 processedImage = image
             }
             
@@ -50,12 +48,10 @@ class DownloadableImageView: UIImageView, Downloadable {
                         if let diskImage = UIImage(contentsOfFile: diskURL.path) {
                             return diskImage
                         }
-                        print("key disk = " + key)
                     case .memory:
                         if let cachedImage = DownloadableImageView.memoryCache.object(forKey: key as NSString) {
                             return cachedImage
                         }
-                        print("key memory = " + key)
                 }
             default: break
             }
@@ -84,16 +80,6 @@ class DownloadableImageView: UIImageView, Downloadable {
             return image
         }
     }
-//
-//    private func cacheImage(_ image: UIImage, for url: URL) {
-//        let key = cacheKey(for: url)
-//        DownloadableImageView.memoryCache.setObject(image, forKey: key as NSString)
-//
-//        let diskURL = DownloadableImageView.diskCacheURL.appendingPathComponent(key)
-//        if let data = image.pngData() {
-//            try? data.write(to: diskURL)
-//        }
-//    }
 
     private func cacheKey(for url: URL) -> String {
         return "\(url.absoluteString)"
