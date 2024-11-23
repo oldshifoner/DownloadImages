@@ -12,6 +12,7 @@ class ImageCollectionViewCell: UICollectionViewCell{
         didSet{
             guard let imageUIView else {return}
             backgroundView = imageUIView
+            backgroundView?.layer.cornerRadius = 12
         }
     }
 }
