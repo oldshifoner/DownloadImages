@@ -16,6 +16,7 @@
 		946625492CEE31E90030A8E6 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946625482CEE31E90030A8E6 /* ImageCollectionViewCell.swift */; };
 		9466254B2CF1CC9E0030A8E6 /* DownloadableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9466254A2CF1CC9E0030A8E6 /* DownloadableImageView.swift */; };
 		9466254D2CF1D02E0030A8E6 /* ExtensionUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9466254C2CF1D02E0030A8E6 /* ExtensionUIImage.swift */; };
+		9466254F2CF1E30F0030A8E6 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9466254E2CF1E30F0030A8E6 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		946625482CEE31E90030A8E6 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		9466254A2CF1CC9E0030A8E6 /* DownloadableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadableImageView.swift; sourceTree = "<group>"; };
 		9466254C2CF1D02E0030A8E6 /* ExtensionUIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIImage.swift; sourceTree = "<group>"; };
+		9466254E2CF1E30F0030A8E6 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				9466253D2CEE307A0030A8E6 /* Assets.xcassets */,
 				9466253F2CEE307A0030A8E6 /* LaunchScreen.storyboard */,
 				946625422CEE307A0030A8E6 /* Info.plist */,
+				9466254E2CF1E30F0030A8E6 /* ViewModel.swift */,
 			);
 			path = DownloadImages;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				9466254D2CF1D02E0030A8E6 /* ExtensionUIImage.swift in Sources */,
 				946625492CEE31E90030A8E6 /* ImageCollectionViewCell.swift in Sources */,
 				946625372CEE30660030A8E6 /* SceneDelegate.swift in Sources */,
+				9466254F2CF1E30F0030A8E6 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
