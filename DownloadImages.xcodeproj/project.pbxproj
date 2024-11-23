@@ -15,6 +15,7 @@
 		946625412CEE307A0030A8E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9466253F2CEE307A0030A8E6 /* LaunchScreen.storyboard */; };
 		946625492CEE31E90030A8E6 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946625482CEE31E90030A8E6 /* ImageCollectionViewCell.swift */; };
 		9466254B2CF1CC9E0030A8E6 /* DownloadableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9466254A2CF1CC9E0030A8E6 /* DownloadableImageView.swift */; };
+		9466254D2CF1D02E0030A8E6 /* ExtensionUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9466254C2CF1D02E0030A8E6 /* ExtensionUIImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		946625422CEE307A0030A8E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		946625482CEE31E90030A8E6 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		9466254A2CF1CC9E0030A8E6 /* DownloadableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadableImageView.swift; sourceTree = "<group>"; };
+		9466254C2CF1D02E0030A8E6 /* ExtensionUIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		946625332CEE30660030A8E6 /* DownloadImages */ = {
 			isa = PBXGroup;
 			children = (
+				9466254C2CF1D02E0030A8E6 /* ExtensionUIImage.swift */,
 				9466254A2CF1CC9E0030A8E6 /* DownloadableImageView.swift */,
 				946625482CEE31E90030A8E6 /* ImageCollectionViewCell.swift */,
 				946625342CEE30660030A8E6 /* AppDelegate.swift */,
@@ -147,6 +150,7 @@
 				9466254B2CF1CC9E0030A8E6 /* DownloadableImageView.swift in Sources */,
 				946625392CEE30660030A8E6 /* ViewController.swift in Sources */,
 				946625352CEE30660030A8E6 /* AppDelegate.swift in Sources */,
+				9466254D2CF1D02E0030A8E6 /* ExtensionUIImage.swift in Sources */,
 				946625492CEE31E90030A8E6 /* ImageCollectionViewCell.swift in Sources */,
 				946625372CEE30660030A8E6 /* SceneDelegate.swift in Sources */,
 			);
